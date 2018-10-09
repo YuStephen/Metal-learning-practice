@@ -14,6 +14,7 @@
 		BAA154782119736800E3006D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAA154762119736800E3006D /* LaunchScreen.storyboard */; };
 		BAA154832119736800E3006D /* Try_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA154822119736800E3006D /* Try_SwiftTests.swift */; };
 		BAA1548E2119736800E3006D /* Try_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA1548D2119736800E3006D /* Try_SwiftUITests.swift */; };
+		BAEB6C13216C99A9009FD6F4 /* CustomShader.metal in Sources */ = {isa = PBXBuildFile; fileRef = BAEB6C12216C99A9009FD6F4 /* CustomShader.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		BAA154892119736800E3006D /* Try_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Try_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAA1548D2119736800E3006D /* Try_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Try_SwiftUITests.swift; sourceTree = "<group>"; };
 		BAA1548F2119736800E3006D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAEB6C12216C99A9009FD6F4 /* CustomShader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = CustomShader.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				BAA154742119736800E3006D /* Assets.xcassets */,
 				BAA154762119736800E3006D /* LaunchScreen.storyboard */,
 				BAA154792119736800E3006D /* Info.plist */,
+				BAEB6C12216C99A9009FD6F4 /* CustomShader.metal */,
 			);
 			path = Try_Swift;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			files = (
 				BAA154702119736600E3006D /* ViewController.swift in Sources */,
 				BAA1546E2119736600E3006D /* AppDelegate.swift in Sources */,
+				BAEB6C13216C99A9009FD6F4 /* CustomShader.metal in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
